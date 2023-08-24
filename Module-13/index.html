@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daisy UI</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Theme -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-red-300 ">
+    <button class="btn glass">Hey, I am a button</button>
+
+
+    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <figure><img src="./Images/banner-image/bag-picture.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <select class="select select-primary w-full max-w-xs">
+        <option disabled selected>What is the best TV show?</option>
+        <option>Game of Thrones</option>
+        <option>Lost</option>
+        <option>Breaking Bad</option>
+        <option>Walking Dead</option>
+      </select>
+    </section>
+
+
+
+    <section>
+      <div class="drawer drawer-end">
+        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content">
+          <!-- Page content here -->
+          <label for="my-drawer-4" class="drawer-button btn btn-primary">Open drawer</label>
+        </div> 
+        <div class="drawer-side">
+          <label for="my-drawer-4" class="drawer-overlay"></label>
+          <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+            <!-- Sidebar content here -->
+            <li><a>Sidebar Item 1</a></li>
+            <li><a>Sidebar Item 2</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section>
+      <img class="mask mask-heart" width="200px" src="Images/banner-image/bag-picture.jpg" />
+    </section>
+  </body>
+</html>

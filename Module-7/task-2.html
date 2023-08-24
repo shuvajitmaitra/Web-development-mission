@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+            gap: 5px;
+            
+
+        }
+        .box{
+            border: 2px solid;
+            border-radius: 5px;
+            width: 100%;
+            height: calc((100vh - 1)/2);
+        }
+        .box-1{
+            background-color: aqua;
+            grid-column: 1/7;
+            grid-row: 1/-1;
+            height: 600px;
+        }
+        .box-2{
+            background-color: rgb(22, 39, 11);
+            grid-column: 7/-1;
+            grid-row: 1/7;
+        }
+        .box-3{
+            background-color: rgb(76, 124, 84);
+            grid-column: 7/10;
+            grid-row: 7/-1;
+        }
+        .box-4{
+            background-color: rgb(158, 93, 125);
+            grid-column: 10/13;
+            grid-row: 7/-1;
+        }
+        @media screen and ( max-width: 567px ){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .box{
+                width: 100%;
+                height: 25vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-1 box">Box - 1</div>
+        <div class="box-2 box">Box - 2</div>
+        <div class="box-3 box">Box - 3</div>
+        <div class="box-4 box">Box - 4</div>
+
+    </div>
+</body>
+</html>

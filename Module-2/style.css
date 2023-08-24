@@ -1,0 +1,110 @@
+h2{
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+
+.Text-color{
+    color: red;
+}
+.background-color{
+    background-color: red;
+}
+
+#id{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.class{
+    color: chocolate;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.one, .three, .four{
+    text-align: center;
+}
+
+.four, .eight{
+    color: brown;
+}
+
+.five, .seven{
+    font-size: 30px;
+}
+#one, #three{
+    font-size: 30px;
+    color: blueviolet;
+}
+#zero, #two{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.SpanTag{
+    color: aqua;
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+}
+#SpanTag{
+    border: 3px solid black;
+    border-radius: 15px;
+    
+}
+span{
+    display: flex;
+    align-items: center;
+}
+.video-5{
+    background-color: aquamarine;
+    border: 5px solid tomato;
+    border-radius: 10px;
+    /* border-top: 5px solid orange; */
+    margin: 20px;
+    /* margin: 100px 20px;top-bottom left-right  */
+    /* margin: 100px 50px 25px; top left-right bottom */
+    /* margin: 100px 50px 25px 10px; top  right bottom left */
+
+}
+
+.video-6{
+    display: block;
+    padding: 30px;
+    padding: 10px;  /*[Both side] */
+    padding: 10px 10px; /* [top-bottom right-left]*/
+    padding: 10px 10px 10px; /* [top right-left bottom]*/
+    padding: 100px 50px 50px 10px; /* [top right left bottom]*/
+        
+
+}
+.video-7{
+    /* display: none;
+    display: inline; */
+    display: block;
+    /* display: inline-block;
+    visibility: hidden; */
+    border : 10PX solid blue;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px blueviolet; solid shadow color show korbe */
+    box-shadow: 20px 20px 20px blueviolet; /*solid shadow color show korbe*/
+    margin: 100px;
+}
+.video-8{
+    height:300px;
+    background-image: url('./images/OIP\ \(1\).jpg');
+    /* background-repeat: none;
+    background-repeat: repeat-x;
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+    /* background-size: contain;
+    background-size: 500px; */
+}
+body{
+    background-color: aquamarine;
+}

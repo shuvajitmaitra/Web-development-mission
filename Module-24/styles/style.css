@@ -1,0 +1,22 @@
+h1 {
+  color: lightgreen;
+}
+p {
+  color: salmon;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  color: rgb(88, 190, 224);
+  list-style: none;
+  font-size: x-large;
+}
+
+#Fruit-title {
+  color: #000;
+}
+.yellow-bg {
+  background-color: yellow;
+}

@@ -1,0 +1,14 @@
+.boy{
+    top:199px;
+    position: absolute;
+    z-index: 3;
+}
+
+.ring{
+    z-index: 2;
+
+    position: absolute;
+}
+.water{
+    position: absolute;
+}

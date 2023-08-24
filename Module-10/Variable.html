@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+    <style>
+        :root{
+            --primary-color:rgb(22, 176, 228);
+            --primary-font-size:30px;
+            --primary-background-color: lightgreen;
+        }
+        .container{
+            border: 3px solid var(--primary-color);
+            background-color: var(--primary-background-color);
+        }
+
+        h1{
+            color: var(--primary-color);
+        }
+        .sidebar{
+            background-color: darkgray;
+        }
+
+        .content{
+            background-color: aqua;
+        }
+        .container-2{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 200px calc(100% - 200px - 20px);
+            grid-template-rows: 500px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, I am Shuvajit Maitra</h1>
+        <p>Here I try to learn Variable in css</p>
+    </div>
+    <div class="container-2">
+        <div class="sidebar">SideBar</div>
+        <div class="content">Main Content</div>
+    </div>
+
+</body>
+</html>

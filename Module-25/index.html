@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Events</title>
+  </head>
+  <body>
+    <!-- Potion 1 -->
+    <h1 onclick="console.log('I am clicked');">Dom er ajke special event</h1>
+    <button title="This is tooltip" onclick="console.log(7)">Click me</button>
+    <button onclick="console.log(65);">Another Button</button>
+    <br />
+    <button onclick="document.body.style.background='yellow'">
+      Make yellow
+    </button>
+    <!-- Option 2 -->
+    <button onclick="makeRed()">Make red</button>
+    <!-- Option 3 -->
+    <button id="make-blue">Make blue</button>
+    <!-- Option 3.5 -->
+    <button id="make-purple">Make Purple</button>
+    <!-- Option 4 -->
+    <button id="make-pink">Make Pink</button>
+    <!-- Option 4.5 -->
+    <button id="make-green">Make green</button>
+    <!-- Option 4 Final -->
+    <button id="make-goldenrod">Make Goldenrod</button>
+    <script src="js/event.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .form-container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            width: 50vh;
+     
+        }
+        .form-heading, input{
+            text-align: center;
+            margin: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <a href="">Home</a><a href="">Profile</a><a href="">About</a><a href="">Contact</a>
+        </div>
+        <a href="">Login</a>
+    </div>
+    <div class="form-container">
+        <form class="form">
+            <h4 class="form-heading">Please Enter your information</h4>
+            <input type="text" placeholder="Enter Your name...">
+            <input type="email" name="" placeholder="Enter your email...">
+            <input type="password" name="" placeholder="Enter your password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

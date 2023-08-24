@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h2 class="text-3xl text-lime-500 text-center pt-4 underline">
+      Hello, I learning Tailwind css
+    </h2>
+
+    <div class="container flex-col flex justify-center md:flex-row items-center h-screen">
+      <div
+        class="box-1 flex justify-center items-center bg-red-500 border-4 border-lime-500 rounded-lg m-10 w-24 h-24"
+      >
+        box-1
+      </div>
+      <div
+        class="box-2 flex justify-center items-center bg-red-500 border-4 border-lime-500 rounded-lg m-10 w-24 h-24"
+      >
+        box-2
+      </div>
+      <div
+        class="box-3 flex justify-center items-center bg-red-500 border-4 border-lime-500 rounded-lg m-10 w-24 h-24"
+      >
+        box-3
+      </div>
+      <div
+        class="box-4 flex justify-center items-center bg-red-500 border-4 border-lime-500 rounded-lg m-10 w-24 h-24"
+      >
+        box-4
+      </div>
+    </div>
+
+    <section>
+        <h3>Grid Layout in Tailwind</h3>
+
+        <div class="grid sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div class="bg-blue-400 rounded-lg"> box 1</div>
+            <div class="bg-blue-400 rounded-lg"> box 2</div>
+            <div class="bg-blue-400 rounded-lg"> box 3</div>
+            <div class="bg-blue-400 rounded-lg"> box 4</div>
+            <div class="bg-blue-400 rounded-lg"> box 5</div>
+            <div class="bg-blue-400 rounded-lg"> box 6</div>
+            <div class="bg-blue-400 rounded-lg"> box 7</div>
+            <div class="bg-blue-400 rounded-lg"> box 8</div>
+            <div class="bg-blue-400 rounded-lg"> box 9</div>
+            <div class="bg-blue-400 rounded-lg"> box 10</div>
+            <div class="bg-blue-400 rounded-lg"> box 11</div>
+            <div class="bg-blue-400 rounded-lg"> box 12</div>
+            <div class="bg-blue-400 rounded-lg"> box 13</div>
+            <div class="bg-blue-400 rounded-lg"> box 14</div>
+            <div class="bg-blue-400 rounded-lg"> box 15</div>
+            <div class="bg-blue-400 rounded-lg"> box 16</div>
+            <div class="bg-blue-400 rounded-lg"> box 17</div>
+            <div class="bg-blue-400 rounded-lg"> box 18</div>
+            <div class="bg-blue-400 rounded-lg"> box 19</div>
+            <div class="bg-blue-400 rounded-lg"> box 20</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Grid website layout</h2>
+        <div class="grid gap-4 sm:grid-cols-4 my-10">
+            <div class="bg-green-400 rounded-md sm:col-span-4 ">Header</div>
+            <div class="bg-green-400 rounded-md sm:h-48 ">nav </div>
+            <div class="bg-green-400 rounded-md h-48 sm:col-span-3">main </div>
+            <div class="bg-green-400 rounded-md sm:col-span-4">footer</div>
+        </div>
+    </section>
+  </body>
+</html>

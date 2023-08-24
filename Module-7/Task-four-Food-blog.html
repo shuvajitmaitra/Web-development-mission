@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Blog</title>
+    <style>
+      .blog {
+        display: flex;
+        align-items: center;
+      }
+
+      .heading {
+        margin-left: 1.5rem;
+      }
+      .image-container {
+        width: 30%;
+      }
+      .blog img{
+        width: 100%;
+      }
+
+      @media screen and (max-width:567px){
+        .blog{
+            display: flex;
+            flex-direction: column;
+        }
+        .image-container {
+            width: 50%;
+            margin: auto;
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="blog">
+        <div class="image-container">
+          <img src="images/food 1.png" alt="" />
+        </div>
+        <div class="heading">
+          <h3>First Blog Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolor
+            molestias vitae obcaecati deserunt voluptatibus sed itaque
+            laudantium nostrum repellat!
+          </p>
+        </div>
+      </div>
+      <div class="blog">
+        <div class="image-container">
+          <img src="images/food 2.jpg" alt="" />
+        </div>
+        <div class="heading">
+          <h3>First Blog Heading</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolor
+            molestias vitae obcaecati deserunt voluptatibus sed itaque
+            laudantium nostrum repellat!
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
