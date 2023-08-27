@@ -10,3 +10,5 @@ const person2 = {
     lastName: 'Deo',
 }
 console.log(person1.fullName.call(person2));
+const [a, b] = [1, 2, 3, 4, 45, 5];
+console.log(a + b);
